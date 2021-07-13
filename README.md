@@ -1,4 +1,4 @@
 # conda_binder
-Basic Conda based Binder
+Basic Conda based Binder with added in packages for Shiny App building.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mafreitas/conda_binder/shiny)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Ellyssa-Sherman/ShinyDashboard.git/HEAD)
