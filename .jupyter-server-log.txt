@@ -93,3 +93,267 @@ TermSocket.open: Opened 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
 [I 15:17:32.545 NotebookApp] Saving file at /gitignore
+Websocket closed
+[I 15:21:14.574 NotebookApp] EOF on FD 16; stopping reading
+[I 15:21:14.675 NotebookApp] Terminal 1 closed
+[I 15:22:18.287 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:22:18.290 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:37:54.549 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:37:54.553 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:38:43.867 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:38:43.871 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:40:34.353 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:40:34.357 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:40:43.642 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:40:43.646 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:45:26.877 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:45:26.881 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:46:56.387 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:46:56.391 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:49:15.948 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:49:15.953 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:50:36.404 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:50:36.408 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:51:19.811 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:51:19.815 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:52:08.234 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:52:08.239 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:52:54.136 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:52:54.140 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:52:56.703 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:52:56.706 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:55:45.705 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:55:45.709 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:57:11.753 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 15:57:11.757 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[E 15:59:01.048 NotebookApp] {
+      "Cookie": "port-token=1a7410c0c7d5; username-hub-gke2-mybinder-org=\"2|1:0|10:1626361776|30:username-hub-gke2-mybinder-org|44:YzRlMDU2Y2RlOGFhNGM0Y2JmMmE1ZmQzNzhkYTUxOTQ=|a4d146a978b893655e6e2ab2e2383cbff75b3758c43cf97a15d29dd8078b98f7\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "If-None-Match": "W/\"9a39b9d91cbd2e861a0cad99005b72b257475ab6\"",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "177bd573bd0b5e187aff3053fe6b6024",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:59:01.048 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/p/03af9c51/ (174.103.97.14) 37.650000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/
+[E 15:59:12.503 NotebookApp] {
+      "Cookie": "port-token=1a7410c0c7d5; username-hub-gke2-mybinder-org=\"2|1:0|10:1626361776|30:username-hub-gke2-mybinder-org|44:YzRlMDU2Y2RlOGFhNGM0Y2JmMmE1ZmQzNzhkYTUxOTQ=|a4d146a978b893655e6e2ab2e2383cbff75b3758c43cf97a15d29dd8078b98f7\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "a1e68b493570b0ed06e7b6aae56d0868",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:59:12.504 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/p/03af9c51/ (174.103.97.14) 25.390000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/
+[I 16:00:16.283 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:00:16.287 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:02:51.651 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:02:51.663 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:03:22.558 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:03:22.563 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:09:30.400 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:09:30.404 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:12:26.635 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:12:26.640 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:15:15.369 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:15:15.373 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:15:43.064 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:15:43.069 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:19:19.296 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:19:19.300 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:20:01.159 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:20:01.164 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:22:12.089 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:22:12.093 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:23:15.810 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:23:15.815 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:27:26.754 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:27:26.758 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:29:11.294 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:29:11.298 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:38:01.365 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:38:01.369 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:40:08.444 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:40:08.448 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:41:05.515 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:41:05.523 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:41:49.932 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:41:49.935 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:42:25.936 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:42:25.939 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:46:43.735 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:46:43.739 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:48:23.715 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:48:23.720 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[E 16:48:47.395 NotebookApp] {
+      "Cookie": "port-token=1a7410c0c7d5; username-hub-gke2-mybinder-org=\"2|1:0|10:1626361776|30:username-hub-gke2-mybinder-org|44:YzRlMDU2Y2RlOGFhNGM0Y2JmMmE1ZmQzNzhkYTUxOTQ=|a4d146a978b893655e6e2ab2e2383cbff75b3758c43cf97a15d29dd8078b98f7\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "If-None-Match": "W/\"2f554788e7eb8c4d20545f3d1228ed40ace824ab\"",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.1.8",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "5d68c7b71ad9569a7408e17ceaefa5b2",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:48:47.395 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/p/03af9c51/ (174.103.97.14) 31.420000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/
+[E 16:49:28.489 NotebookApp] {
+      "Cookie": "port-token=1a7410c0c7d5; username-hub-gke2-mybinder-org=\"2|1:0|10:1626361776|30:username-hub-gke2-mybinder-org|44:YzRlMDU2Y2RlOGFhNGM0Y2JmMmE1ZmQzNzhkYTUxOTQ=|a4d146a978b893655e6e2ab2e2383cbff75b3758c43cf97a15d29dd8078b98f7\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.1.8",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "ee5a339048f5ae9b6354d918e979f99e",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:49:28.489 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/p/03af9c51/ (174.103.97.14) 26.810000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/
+[E 16:49:30.066 NotebookApp] {
+      "Cookie": "port-token=1a7410c0c7d5; username-hub-gke2-mybinder-org=\"2|1:0|10:1626361776|30:username-hub-gke2-mybinder-org|44:YzRlMDU2Y2RlOGFhNGM0Y2JmMmE1ZmQzNzhkYTUxOTQ=|a4d146a978b893655e6e2ab2e2383cbff75b3758c43cf97a15d29dd8078b98f7\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.1.8",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "54b2fdde2f857ea39a410278cd88e882",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:49:30.066 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/p/03af9c51/ (174.103.97.14) 32.040000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/
+[E 16:49:30.450 NotebookApp] {
+      "Cookie": "port-token=1a7410c0c7d5; username-hub-gke2-mybinder-org=\"2|1:0|10:1626361776|30:username-hub-gke2-mybinder-org|44:YzRlMDU2Y2RlOGFhNGM0Y2JmMmE1ZmQzNzhkYTUxOTQ=|a4d146a978b893655e6e2ab2e2383cbff75b3758c43cf97a15d29dd8078b98f7\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.1.8",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "a448e482c5d0d9562152096839a78316",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:49:30.450 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/p/03af9c51/ (174.103.97.14) 32.100000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/
+[E 16:49:30.677 NotebookApp] {
+      "Cookie": "port-token=1a7410c0c7d5; username-hub-gke2-mybinder-org=\"2|1:0|10:1626361776|30:username-hub-gke2-mybinder-org|44:YzRlMDU2Y2RlOGFhNGM0Y2JmMmE1ZmQzNzhkYTUxOTQ=|a4d146a978b893655e6e2ab2e2383cbff75b3758c43cf97a15d29dd8078b98f7\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.1.8",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "adc54134beb233af25827f16c9535525",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:49:30.678 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/p/03af9c51/ (174.103.97.14) 60.580000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/
+[E 16:49:30.897 NotebookApp] {
+      "Cookie": "port-token=1a7410c0c7d5; username-hub-gke2-mybinder-org=\"2|1:0|10:1626361776|30:username-hub-gke2-mybinder-org|44:YzRlMDU2Y2RlOGFhNGM0Y2JmMmE1ZmQzNzhkYTUxOTQ=|a4d146a978b893655e6e2ab2e2383cbff75b3758c43cf97a15d29dd8078b98f7\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.1.8",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "9d5829dbff1cb0cdf0275b6776cff2f0",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:49:30.897 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/p/03af9c51/ (174.103.97.14) 43.820000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/
+[E 16:49:31.092 NotebookApp] {
+      "Cookie": "port-token=1a7410c0c7d5; username-hub-gke2-mybinder-org=\"2|1:0|10:1626361776|30:username-hub-gke2-mybinder-org|44:YzRlMDU2Y2RlOGFhNGM0Y2JmMmE1ZmQzNzhkYTUxOTQ=|a4d146a978b893655e6e2ab2e2383cbff75b3758c43cf97a15d29dd8078b98f7\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.1.8",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "166af02e08a43d0927e1eb60c00eaeab",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:49:31.092 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/p/03af9c51/ (174.103.97.14) 25.970000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/
+[E 16:49:31.327 NotebookApp] {
+      "Cookie": "port-token=1a7410c0c7d5; username-hub-gke2-mybinder-org=\"2|1:0|10:1626361776|30:username-hub-gke2-mybinder-org|44:YzRlMDU2Y2RlOGFhNGM0Y2JmMmE1ZmQzNzhkYTUxOTQ=|a4d146a978b893655e6e2ab2e2383cbff75b3758c43cf97a15d29dd8078b98f7\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.1.8",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "cbd9fb6f907f6bdce29b5a21fac51e01",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:49:31.327 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/p/03af9c51/ (174.103.97.14) 66.730000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-q19ge9ta/rstudio/
+[I 16:50:26.322 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:50:26.325 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:56:07.621 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:56:07.625 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:56:34.402 NotebookApp] Trying to establish websocket connection to ws://localhost:50957/p/03af9c51/websocket/
+[I 16:56:34.406 NotebookApp] Websocket connection established to ws://localhost:50957/p/03af9c51/websocket/
+[I 17:01:30.009 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1

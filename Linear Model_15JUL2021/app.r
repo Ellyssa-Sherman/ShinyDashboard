@@ -1,4 +1,18 @@
-#
+# Assignment Requirements:
+# 1) Read in a csv formatted file regrex1.csv. | DONE
+# 2) Output a scatter plot | DONE
+# 3) Add a button to model the data (linear model) | DONE
+# 4) Output a plot of the linear model overlayed on the original data.
+# 5) Output the slope, intercept, and correlation coefficient
+# 6) Push the functional app to a Binder git repo.  
+# 7) Submit the git URLs for each jupyter notebook repo (one for R and one for pyton). The URL must contain the notebook (.ipynb) the exported html of the completed assignment (.html) and a modified README with the badge icon for the binder notebook used to create the assignment.  YOU ARE ALLOWED MULTIPLE UPLOAD ATTEMPTS.  LOAD EACH URL SEPARATELY.
+
+# 
+# Additional Challenges (no graded)
+# 1) create a button to export the plots
+# 2) incorporate Plotly interactive graphs
+# 3) Provide interactive controls to change the parameters of the linear model
+
 # This is a Shiny web application. You can run the application by clicking
 # the 'Run App' button above.
 #
@@ -13,55 +27,60 @@ library(shiny)
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Old Faithful Geyser Data"),
-
+    titlePanel("Group 5 | Regrex1 Data | Shiny Dashboard"),
+    
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
         sidebarPanel(
-
             
-            # Input: Select a file ----
+            # Input: File selecting option
             fileInput("file1", "Choose CSV File",
                       multiple = FALSE,
                       accept = c("text/csv",
                                  "text/comma-separated-values,text/plain",
                                  ".csv")),
-            
-            # Horizontal line ----
+            # Horizontal line for presentation of information
             tags$hr(),
             
-            # Input: Checkbox if file has header ----
+            # Input: Checkbox if file has header
             checkboxInput("header", "Header", TRUE),
+            tags$hr(), # Horizontal line
             
-            # Input: Select separator ----
+            # Input: Select separator
             radioButtons("sep", "Separator",
                          choices = c(Comma = ",",
                                      Semicolon = ";",
                                      Tab = "\t"),
                          selected = ","),
+            tags$hr(), # Horizontal line
             
-            # Input: Select quotes ----
+            # Input: Select quotes
             radioButtons("quote", "Quote",
                          choices = c(None = "",
                                      "Double Quote" = '"',
                                      "Single Quote" = "'"),
                          selected = '"'),
+            tags$hr(), # Horizontal line
             
-            # Horizontal line ----
-            tags$hr(),
-            
-            # Input: Select number of rows to display ----
+            # Input: Select number of rows to display
             radioButtons("disp", "Display",
                          choices = c(Head = "head",
                                      All = "all"),
-                         selected = "head")
+                         selected = "head"),
+            tags$hr(), # Horizontal line
+            
+            actionButton("lmPlot", "Linear Model"),
+            tags$hr(), # Horizontal line
         ),
 
         # Show a plot of the generated distribution
         mainPanel(
            plotOutput("distPlot"),
            plotOutput("lmPlot"),
-           tableOutput("contents")
+           tableOutput("contents"),
+           textOutput("summary"),
+           textOutput("summary1"),
+           textOutput("summary2")
         )
     )
 )
@@ -79,22 +98,34 @@ server <- function(input, output) {
         return(df)
     })
     
-    # output$distPlot <- renderPlot({
-    #     # generate bins based on input$bins from ui.R
-    #     x    <- faithful[, 2]
-    #     bins <- seq(min(x), max(x), length.out = input$bins + 1)
-    #     print(bins)
-    #     # draw the histogram with the specified number of bins
-    #     hist(x, breaks = bins, col = 'darkgray', border = 'white')
-    # })
-    # 
+    LinearModel <- eventReactive(input$lmPlot, {
+        y <- dataInput()$y
+        x <- dataInput()$x
+        lmPlot <- lm(y ~ x)
+    })
     
     output$distPlot <- renderPlot({
         plot(dataInput()$x,dataInput()$y)
     })
     
-    output$lmtPlot <- renderPlot({
-        plot(dataInput()$x,dataInput()$y)
+    output$lmPlot <- renderPlot({
+       # y <- dataInput()$y
+       # x <- dataInput()$x
+       # lmPlot <- lm(y ~ x)
+       plot(dataInput()$x,dataInput()$y)
+       abline(LinearModel())
+    })
+        
+    output$summary <- renderPrint({
+        y <- dataInput()$y
+        x <- dataInput()$x
+        lmPlot <- lm(y ~ x)
+        # attributes(summary(lmPlot))
+        summary(lmPlot)$slope
+        
+        summary1(lmPlot)$coefficients
+        summary2(lmPlot)$r.squared
+        # Display slope, intercept (coefficients), and correlation coefficient (r.squared)
     })
     
     
