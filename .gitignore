@@ -1,6 +1,18 @@
 #Hiding temporary files generated from R Studio
 logs
 bookmarks
+.bash_logout
+.bashrc
+.cache
+.conda
+.config
+.empty
+.profile
+.jupyter-server-log.txt
+.gitconfig
+.subversion
+.rstudio
+.local/share
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

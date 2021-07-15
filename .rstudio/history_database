@@ -25,3 +25,4 @@
 1626205893009:runApp('Example.In_Class_Code')
 1626205903292:runApp('Example.In_Class_Code')
 1626205933977:runApp('Example.In_Class_Code')
+1626361920448:shiny::runApp('Example.In_Class_Code')
