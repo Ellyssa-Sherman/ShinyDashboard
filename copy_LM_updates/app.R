@@ -25,7 +25,7 @@ library(shiny)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-
+    
     # Application title
     titlePanel("Group 5 | Regrex1 Data | Shiny Dashboard"),
     
@@ -39,24 +39,21 @@ ui <- fluidPage(
                       accept = c("text/csv",
                                  "text/comma-separated-values,text/plain",
                                  ".csv")),
-
+            
             # Input: Checkbox if file has header
             checkboxInput("header", "Header", TRUE),
-            
             # Input: Select separator
             radioButtons("sep", "Separator",
                          choices = c(Comma = ",",
                                      Semicolon = ";",
                                      Tab = "\t"),
                          selected = ","),
-
-            # Input: Select quotes
+             # Input: Select quotes
             radioButtons("quote", "Quote",
                          choices = c(None = "",
                                      "Double Quote" = '"',
                                      "Single Quote" = "'"),
                          selected = '"'),
-            
             # Input: Select number of rows to display
             radioButtons("disp", "Display",
                          choices = c(Head = "head",
@@ -64,30 +61,28 @@ ui <- fluidPage(
                          selected = "head"),
             tags$hr(), # Horizontal line
             
-            actionButton("lmPlot", "Linear Model"),
-            # I want to create checkbox click where it shows these regression attributes
+            actionButton("lmPlot", "Add Linear Model"),
+            tags$hr(), # Horizontal line
+            
             # radioButtons("attributes", "Regression Attributes",
             #              choices = c(Slope = "slope",
             #                          Intercept = "int",
             #                          R-squared = "r_squ"),
             #              selected = "slope")
-            
-            tags$hr(), # Horizontal line
         ),
-
+        
         # Show a plot of the generated distribution
         mainPanel(
-           plotOutput("distPlot"),
-           plotOutput("lmPlot"),
-           tableOutput("contents"),
-           textOutput("summary")
+            plotOutput("distPlot"),
+            plotOutput("lmPlot"),
+            tableOutput("contents")
         )
     )
 )
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-
+    
     dataInput <- reactive({
         req(input$file1)
         
@@ -95,6 +90,7 @@ server <- function(input, output) {
                        header = input$header,
                        sep = input$sep,
                        quote = input$quote)
+                       # attributes = input$attributes)
         return(df)
     })
     
@@ -102,6 +98,7 @@ server <- function(input, output) {
         y <- dataInput()$y
         x <- dataInput()$x
         lmPlot <- lm(y ~ x)
+        
     })
     
     output$distPlot <- renderPlot({
@@ -109,24 +106,32 @@ server <- function(input, output) {
     })
     
     output$lmPlot <- renderPlot({
-       # y <- dataInput()$y
-       # x <- dataInput()$x
-       # lmPlot <- lm(y ~ x)
-       plot(dataInput()$x,dataInput()$y)
-       abline(LinearModel())
+        plot(dataInput()$x,dataInput()$y)
+        abline(LinearModel(), col = "red", lwd = 2)
     })
-        
-    output$summary <- renderPrint({
-        y <- dataInput()$y
-        x <- dataInput()$x
-        lmPlot <- lm(y ~ x)
-        attributes(summary(lmPlot))
-        # summary(lmPlot)$r.squared
-        # summary(lmPlot)$intercept
-        
-        # Display slope, intercept (coefficients), and correlation coefficient (r.squared)
-    })
-    
+
+    # Display slope, intercept (coefficients), and correlation coefficient (r.squared)    
+    # output$slope <- renderPrint({
+    #     y <- dataInput()$y
+    #     x <- dataInput()$x
+    #     lmPlot <- lm(y ~ x)
+    #     summary(lmPlot)$slope
+    # })
+    #     
+    # output$coefficients <- renderPrint({
+    #     y <- dataInput()$y
+    #     x <- dataInput()$x
+    #     lmPlot <- lm(y ~ x)
+    #     summary(lmPlot)$coefficients
+    # })    
+    #     
+    # output$r.squared <- renderPrint({
+    #     y <- dataInput()$y
+    #     x <- dataInput()$x
+    #     lmPlot <- lm(y ~ x)
+    #     summary(lmPlot)$r.squared
+    # })
+
     
     output$contents <- renderTable({
         
@@ -143,7 +148,7 @@ server <- function(input, output) {
         }
         
     })
-        
+    
 }
 
 # Run the application 

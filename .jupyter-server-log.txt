@@ -357,3 +357,314 @@ Websocket closed
 [I 17:01:30.009 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[W 2021-07-16 14:45:19.882 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-16 14:45:19.882 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-16 14:45:19.882 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-16 14:45:19.882 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-16 14:45:19.882 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-16 14:45:19.882 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-16 14:45:19.882 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-16 14:45:19.882 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-16 14:45:19.882 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-16 14:45:19.882 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-16 14:45:19.882 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-16 14:45:19.882 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-16 14:45:19.895 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyterlab
+[I 2021-07-16 14:45:19.895 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 14:45:19.903 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/nteract_on_jupyter
+[I 14:45:19.905 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 14:45:19.907 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 14:45:19.908 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 14:45:19.908 NotebookApp] http://jupyter-ellyssa-2dsherman-2dshinydashboard-2drd442wpj:8888/user/ellyssa-sherman-shinydashboard-rd442wpj/?token=...
+[I 14:45:19.908 NotebookApp]  or http://127.0.0.1:8888/user/ellyssa-sherman-shinydashboard-rd442wpj/?token=...
+[I 14:45:19.908 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 14:45:19.912 NotebookApp] No web browser found: could not locate runnable browser.
+[I 14:45:19.915 NotebookApp] 302 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/ (10.0.0.17) 1.860000ms
+[I 14:45:28.362 NotebookApp] 302 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/?token=UrKB6EgeSE6-x1B_Fzh6bA (174.103.97.14) 0.950000ms
+/usr/lib/rstudio-server/bin/rsession: Relink `/srv/conda/envs/notebook/lib/R/lib/../.././libgfortran.so.4' with `/lib/x86_64-linux-gnu/librt.so.1' for IFUNC symbol `clock_gettime'
+[I 15:00:57.486 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:00:57.492 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:03:06.680 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:03:06.685 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:04:30.132 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:04:30.136 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[E 15:05:02.899 NotebookApp] {
+      "Cookie": "port-token=9be7beddf61b; username-hub-gke2-mybinder-org=\"2|1:0|10:1626446728|30:username-hub-gke2-mybinder-org|44:ZGQyN2UxZDY2MDM1NGEyNTk3YmE4YWE2YzQ4OTU2Nzg=|cd553ccd8668d6b30efd84cd97c00234ef30e6e6b520f6ba2b6a7514eb8965ba\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "If-None-Match": "W/\"afc6ac90e0edc021af9b4aa6c2326b3eabd10c6b\"",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "8fb8c76969721fee0c2f99c075d454e1",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:05:02.900 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/p/85769466/ (174.103.97.14) 34.190000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/
+[E 15:05:48.289 NotebookApp] {
+      "Cookie": "port-token=9be7beddf61b; username-hub-gke2-mybinder-org=\"2|1:0|10:1626446728|30:username-hub-gke2-mybinder-org|44:ZGQyN2UxZDY2MDM1NGEyNTk3YmE4YWE2YzQ4OTU2Nzg=|cd553ccd8668d6b30efd84cd97c00234ef30e6e6b520f6ba2b6a7514eb8965ba\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "f4394c2989109f6712f2319bfe836bc9",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:05:48.290 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/p/85769466/ (174.103.97.14) 35.260000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/
+[E 15:06:08.105 NotebookApp] {
+      "Cookie": "port-token=9be7beddf61b; username-hub-gke2-mybinder-org=\"2|1:0|10:1626446728|30:username-hub-gke2-mybinder-org|44:ZGQyN2UxZDY2MDM1NGEyNTk3YmE4YWE2YzQ4OTU2Nzg=|cd553ccd8668d6b30efd84cd97c00234ef30e6e6b520f6ba2b6a7514eb8965ba\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "18ca3786ffce949eaac70e1786c8328b",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:06:08.105 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/p/85769466/ (174.103.97.14) 42.950000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/
+[I 15:08:13.031 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:08:13.036 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:09:12.077 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:09:12.081 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:10:36.379 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:10:36.383 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:11:22.948 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:11:22.952 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:12:38.239 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:12:38.243 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:13:48.338 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:13:48.344 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:30:40.512 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:30:40.515 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:31:11.498 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:31:11.517 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:31:29.449 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:31:29.454 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[I 15:32:29.001 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:32:29.006 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+[E 15:33:11.348 NotebookApp] {
+      "Cookie": "port-token=9be7beddf61b; username-hub-gke2-mybinder-org=\"2|1:0|10:1626446728|30:username-hub-gke2-mybinder-org|44:ZGQyN2UxZDY2MDM1NGEyNTk3YmE4YWE2YzQ4OTU2Nzg=|cd553ccd8668d6b30efd84cd97c00234ef30e6e6b520f6ba2b6a7514eb8965ba\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "If-None-Match": "W/\"f0645912bd01d387e1300a665b0443c15ca63d8e\"",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "80bd44de1c29052bf305705cca5097e7",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:33:11.348 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/p/85769466/ (174.103.97.14) 26.730000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/
+[I 15:33:29.437 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/85769466/websocket/
+[I 15:33:29.441 NotebookApp] Websocket connection established to ws://localhost:47703/p/85769466/websocket/
+/usr/lib/rstudio-server/bin/rsession: Relink `/srv/conda/envs/notebook/lib/R/lib/../.././libgfortran.so.4' with `/lib/x86_64-linux-gnu/librt.so.1' for IFUNC symbol `clock_gettime'
+[I 15:33:43.871 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:33:43.893 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:34:18.566 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:34:18.588 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:34:46.198 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:34:46.220 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:35:05.862 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:35:05.871 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:37:10.495 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:37:10.506 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:37:51.758 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:37:51.767 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[E 15:38:42.521 NotebookApp] {
+      "Cookie": "port-token=9be7beddf61b; username-hub-gke2-mybinder-org=\"2|1:0|10:1626446728|30:username-hub-gke2-mybinder-org|44:ZGQyN2UxZDY2MDM1NGEyNTk3YmE4YWE2YzQ4OTU2Nzg=|cd553ccd8668d6b30efd84cd97c00234ef30e6e6b520f6ba2b6a7514eb8965ba\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "If-None-Match": "W/\"a956f44398841ddce87a77cd230fc15df748a218\"",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "3c9e4fd6a4f8a85873a10ee358f319b3",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:38:42.522 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/p/9b5ff65a/ (174.103.97.14) 66.870000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/
+[E 15:38:54.411 NotebookApp] {
+      "Cookie": "port-token=9be7beddf61b; username-hub-gke2-mybinder-org=\"2|1:0|10:1626446728|30:username-hub-gke2-mybinder-org|44:ZGQyN2UxZDY2MDM1NGEyNTk3YmE4YWE2YzQ4OTU2Nzg=|cd553ccd8668d6b30efd84cd97c00234ef30e6e6b520f6ba2b6a7514eb8965ba\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "fb183d9c158834959d7b2292a75dc041",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:38:54.411 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/p/9b5ff65a/ (174.103.97.14) 36.330000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/
+[E 15:41:53.871 NotebookApp] {
+      "Cookie": "port-token=9be7beddf61b; username-hub-gke2-mybinder-org=\"2|1:0|10:1626446728|30:username-hub-gke2-mybinder-org|44:ZGQyN2UxZDY2MDM1NGEyNTk3YmE4YWE2YzQ4OTU2Nzg=|cd553ccd8668d6b30efd84cd97c00234ef30e6e6b520f6ba2b6a7514eb8965ba\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "e679b35ebce20b925e48517f44c00404",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:41:53.871 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/p/9b5ff65a/ (174.103.97.14) 5.160000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/
+[I 15:45:36.377 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:45:36.403 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:47:12.776 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 15:47:12.786 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:06:46.279 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:06:46.283 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:07:01.919 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:07:01.922 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:10:00.635 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:10:00.639 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:10:05.956 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:10:05.960 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:10:30.977 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:10:30.981 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:15:17.059 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:15:17.063 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:15:20.694 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:15:20.697 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[E 16:16:43.645 NotebookApp] {
+      "Cookie": "port-token=9be7beddf61b; username-hub-gke2-mybinder-org=\"2|1:0|10:1626446728|30:username-hub-gke2-mybinder-org|44:ZGQyN2UxZDY2MDM1NGEyNTk3YmE4YWE2YzQ4OTU2Nzg=|cd553ccd8668d6b30efd84cd97c00234ef30e6e6b520f6ba2b6a7514eb8965ba\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "If-None-Match": "W/\"f0645912bd01d387e1300a665b0443c15ca63d8e\"",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "a0de5d8c6c545c555632ad7bf0d10225",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:16:43.645 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/p/9b5ff65a/ (174.103.97.14) 3.410000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/
+[E 16:16:43.663 NotebookApp] {
+      "Cookie": "port-token=9be7beddf61b; username-hub-gke2-mybinder-org=\"2|1:0|10:1626446728|30:username-hub-gke2-mybinder-org|44:ZGQyN2UxZDY2MDM1NGEyNTk3YmE4YWE2YzQ4OTU2Nzg=|cd553ccd8668d6b30efd84cd97c00234ef30e6e6b520f6ba2b6a7514eb8965ba\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "If-None-Match": "W/\"f0645912bd01d387e1300a665b0443c15ca63d8e\"",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "6b2766731d3c33478f6838934285b084",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:16:43.663 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/p/9b5ff65a/ (174.103.97.14) 3.370000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/
+[I 16:24:16.726 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:24:16.730 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:25:29.725 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:25:29.729 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:26:02.195 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:26:02.198 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:26:27.040 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:26:27.044 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:27:37.728 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:27:37.731 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:28:09.591 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:28:09.595 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:28:42.718 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:28:42.724 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:37:05.696 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[E 16:37:05.702 NotebookApp] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x7fc3245a8d30>>, <Task finished name='Task-16186' coro=<ProxyHandler.proxy_open.<locals>.start_websocket_connection() done, defined at /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyter_server_proxy/handlers.py:307> exception=HTTP 500: Internal Server Error>)
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+        ret = callback()
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+        future.result()
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/jupyter_server_proxy/handlers.py", line 311, in start_websocket_connection
+        self.ws = await pingable_ws_connect(request=request,
+    tornado.httpclient.HTTPClientError: HTTP 500: Internal Server Error
+Task was destroyed but it is pending!
+task: <Task pending name='Task-16184' coro=<RequestHandler._execute() done, defined at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py:1660> wait_for=<Task pending name='Task-16185' coro=<WebSocketHandler.get() running at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/websocket.py:278> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7fc3238928b0>()]> cb=[<TaskWakeupMethWrapper object at 0x7fc3238922e0>()]> cb=[_HandlerDelegate.execute.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py:2326]>
+Task was destroyed but it is pending!
+task: <Task pending name='Task-16185' coro=<WebSocketHandler.get() done, defined at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/websocket.py:231> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7fc3238928b0>()]> cb=[<TaskWakeupMethWrapper object at 0x7fc3238922e0>()]>
+[I 16:37:06.103 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:37:06.107 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:37:52.269 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:37:52.274 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:37:53.377 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:37:53.382 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:39:12.648 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:39:12.653 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:40:50.038 NotebookApp] Trying to establish websocket connection to ws://localhost:47703/p/9b5ff65a/websocket/
+[I 16:40:50.041 NotebookApp] Websocket connection established to ws://localhost:47703/p/9b5ff65a/websocket/
+[E 16:41:04.831 NotebookApp] {
+      "Cookie": "port-token=9be7beddf61b; username-hub-gke2-mybinder-org=\"2|1:0|10:1626446728|30:username-hub-gke2-mybinder-org|44:ZGQyN2UxZDY2MDM1NGEyNTk3YmE4YWE2YzQ4OTU2Nzg=|cd553ccd8668d6b30efd84cd97c00234ef30e6e6b520f6ba2b6a7514eb8965ba\"; csrf-token=393148df-3709-4442-82ac-d60bac9a9b5b; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/",
+      "Accept-Language": "en-us",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "If-None-Match": "W/\"5772d33abfa925a9ef600dd8673904d9c70a2fa3\"",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.4.4",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "f5a0f1ee13ad2a8c5a0e46601505f754",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:41:04.831 NotebookApp] 500 GET /user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/p/9b5ff65a/ (174.103.97.14) 25.190000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-rd442wpj/rstudio/
+[I 16:42:36.769 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
