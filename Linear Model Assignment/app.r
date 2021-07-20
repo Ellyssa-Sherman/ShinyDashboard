@@ -7,7 +7,7 @@
 # 6) Push the functional app to a Binder git repo.  
 # 7) Submit the git URLs for Shiny App.
 
-# Additional Challenges (no graded)
+# Additional Challenges (not graded)
 # 1) create a button to export the plots | DONE
 # 2) incorporate Plotly interactive graphs
 # 3) Provide interactive controls to change the parameters of the linear model
