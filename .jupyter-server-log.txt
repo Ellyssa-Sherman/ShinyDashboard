@@ -739,3 +739,124 @@ TermSocket.open: Opened 1
 [I 16:05:28.269 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[W 2021-07-20 16:17:20.127 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 16:17:20.128 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 16:17:20.128 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 16:17:20.128 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 16:17:20.128 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 16:17:20.128 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 16:17:20.128 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 16:17:20.128 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-20 16:17:20.128 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-20 16:17:20.128 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 16:17:20.128 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 16:17:20.128 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-20 16:17:20.138 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyterlab
+[I 2021-07-20 16:17:20.138 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 16:17:20.150 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/nteract_on_jupyter
+[I 16:17:20.152 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 16:17:20.153 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 16:17:20.154 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 16:17:20.154 NotebookApp] http://jupyter-ellyssa-2dsherman-2dshinydashboard-2d8up09sd8:8888/user/ellyssa-sherman-shinydashboard-8up09sd8/?token=...
+[I 16:17:20.154 NotebookApp]  or http://127.0.0.1:8888/user/ellyssa-sherman-shinydashboard-8up09sd8/?token=...
+[I 16:17:20.154 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:17:20.159 NotebookApp] No web browser found: could not locate runnable browser.
+[I 16:17:20.440 NotebookApp] 302 GET /user/ellyssa-sherman-shinydashboard-8up09sd8/ (10.0.0.17) 0.950000ms
+[I 16:17:30.425 NotebookApp] 302 GET /user/ellyssa-sherman-shinydashboard-8up09sd8/?token=nQaG3m_FS0eb6YNcXi-iKw (174.103.97.14) 1.100000ms
+/usr/lib/rstudio-server/bin/rsession: Relink `/srv/conda/envs/notebook/lib/R/lib/../.././libgfortran.so.5' with `/lib/x86_64-linux-gnu/librt.so.1' for IFUNC symbol `clock_gettime'
+[I 16:27:30.986 NotebookApp] Trying to establish websocket connection to ws://localhost:46611/p/1c7cc9d1/websocket/
+[I 16:27:30.993 NotebookApp] Websocket connection established to ws://localhost:46611/p/1c7cc9d1/websocket/
+[I 16:30:17.495 NotebookApp] Trying to establish websocket connection to ws://localhost:46611/p/1c7cc9d1/websocket/
+[I 16:30:17.502 NotebookApp] Websocket connection established to ws://localhost:46611/p/1c7cc9d1/websocket/
+[W 16:32:59.756 NotebookApp] delete /Making download.R
+[W 16:33:04.405 NotebookApp] delete /copy_LM_updates
+[E 16:33:04.406 NotebookApp] Uncaught exception DELETE /user/ellyssa-sherman-shinydashboard-8up09sd8/api/contents/copy_LM_updates (174.103.97.14)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='DELETE', uri='/user/ellyssa-sherman-shinydashboard-8up09sd8/api/contents/copy_LM_updates', version='HTTP/1.1', remote_ip='174.103.97.14')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/handlers.py", line 237, in delete
+        yield maybe_future(cm.delete(path))
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/manager.py", line 279, in delete
+        self.delete_file(path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/filemanager.py", line 533, in delete_file
+        send2trash(os_path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 192, in send2trash
+        trash_move(path_b, dest_trash, topdir)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 103, in trash_move
+        os.rename(src, op.join(filespath, destname))
+    OSError: [Errno 18] Invalid cross-device link: b'/home/jovyan/copy_LM_updates' -> b'/home/jovyan/.local/share/Trash/files/copy_LM_updates'
+[W 16:33:04.415 NotebookApp] Unhandled error
+[E 16:33:04.416 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1626797850|30:username-hub-gke2-mybinder-org|44:OGM3YjNlYjcyOGZkNGEzMmFjN2RiMTBmNTQ4ZDdmMzI=|3e19a27f09cf14507090d6ea9150deb7bc3b73a9155354e93967ee1d2d587408\"; csrf-token=1c018f3f-ec04-48da-872f-41405278684e; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-8up09sd8/tree",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "Accept-Language": "en-us",
+      "Accept-Encoding": "gzip, deflate, br",
+      "X-Xsrftoken": "2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.1.8",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "85702649467b0bfd7ac48e0041c1a452",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:33:04.416 NotebookApp] 500 DELETE /user/ellyssa-sherman-shinydashboard-8up09sd8/api/contents/copy_LM_updates (174.103.97.14) 11.350000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-8up09sd8/tree
+[W 16:33:12.347 NotebookApp] delete /copy_LM_updates
+[E 16:33:12.347 NotebookApp] Uncaught exception DELETE /user/ellyssa-sherman-shinydashboard-8up09sd8/api/contents/copy_LM_updates (174.103.97.14)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='DELETE', uri='/user/ellyssa-sherman-shinydashboard-8up09sd8/api/contents/copy_LM_updates', version='HTTP/1.1', remote_ip='174.103.97.14')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/handlers.py", line 237, in delete
+        yield maybe_future(cm.delete(path))
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/manager.py", line 279, in delete
+        self.delete_file(path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/filemanager.py", line 533, in delete_file
+        send2trash(os_path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 192, in send2trash
+        trash_move(path_b, dest_trash, topdir)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 103, in trash_move
+        os.rename(src, op.join(filespath, destname))
+    OSError: [Errno 18] Invalid cross-device link: b'/home/jovyan/copy_LM_updates' -> b'/home/jovyan/.local/share/Trash/files/copy_LM_updates'
+[W 16:33:12.348 NotebookApp] Unhandled error
+[E 16:33:12.349 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1626797850|30:username-hub-gke2-mybinder-org|44:OGM3YjNlYjcyOGZkNGEzMmFjN2RiMTBmNTQ4ZDdmMzI=|3e19a27f09cf14507090d6ea9150deb7bc3b73a9155354e93967ee1d2d587408\"; csrf-token=1c018f3f-ec04-48da-872f-41405278684e; _xsrf=2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "Referer": "https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-8up09sd8/tree",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "Accept-Language": "en-us",
+      "Accept-Encoding": "gzip, deflate, br",
+      "X-Xsrftoken": "2|da656181|ced94625ec82b5446f7ba3c043687b32|1624552128",
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "174.103.97.14,::ffff:10.0.1.8",
+      "X-Real-Ip": "174.103.97.14",
+      "X-Request-Id": "39b43a7db6e540f1018e9a0306be11f0",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:33:12.349 NotebookApp] 500 DELETE /user/ellyssa-sherman-shinydashboard-8up09sd8/api/contents/copy_LM_updates (174.103.97.14) 2.950000ms referer=https://hub.gke2.mybinder.org/user/ellyssa-sherman-shinydashboard-8up09sd8/tree
+[I 16:33:21.634 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 16:47:40.916 NotebookApp] Trying to establish websocket connection to ws://localhost:46611/p/1c7cc9d1/websocket/
+[I 16:47:40.920 NotebookApp] Websocket connection established to ws://localhost:46611/p/1c7cc9d1/websocket/
+[I 16:50:23.699 NotebookApp] Trying to establish websocket connection to ws://localhost:46611/p/1c7cc9d1/websocket/
+[I 16:50:23.704 NotebookApp] Websocket connection established to ws://localhost:46611/p/1c7cc9d1/websocket/

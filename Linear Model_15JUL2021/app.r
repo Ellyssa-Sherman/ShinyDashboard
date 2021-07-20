@@ -8,7 +8,7 @@
 # 7) Submit the git URLs for Shiny App.
 
 # Additional Challenges (no graded)
-# 1) create a button to export the plots
+# 1) create a button to export the plots | DONE
 # 2) incorporate Plotly interactive graphs
 # 3) Provide interactive controls to change the parameters of the linear model
 
@@ -64,13 +64,15 @@ ui <- fluidPage(
                          selected = "head"),
             tags$hr(), # Horizontal line
             
+            # Adding linear model button and download plot button
             actionButton("lmPlot", "Linear Model"),
+            downloadButton("downloadPlot", "Download Plot"),
             tags$hr(), # Horizontal line
             
             
         ),
 
-        # Show a plot of the generated distribution
+        # Show a plots and selected data
         mainPanel(
            plotOutput("distPlot"),
            plotOutput("lmPlot"),
@@ -79,9 +81,7 @@ ui <- fluidPage(
            h5("Y-Intercept"),
            textOutput("Intercepts"),
            h5("Correlation Coefficient"),
-           textOutput("R.squared"),
-
-
+           textOutput("R.squared")
         )
     )
 )
@@ -89,9 +89,9 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
 
+    # CSV file reactive modeling
     dataInput <- reactive({
         req(input$file1)
-        
         df <- read.csv(input$file1$datapath,
                        header = input$header,
                        sep = input$sep,
@@ -99,39 +99,48 @@ server <- function(input, output) {
         return(df)
     })
     
+    # Defining my lmPlot data as linear model
     LinearModel <- eventReactive(input$lmPlot, {
         y <- dataInput()$y
         x <- dataInput()$x
         lmPlot <- lm(y ~ x)
     })
     
+    # Scatter data plot
     output$distPlot <- renderPlot({
         plot(dataInput()$x,dataInput()$y)
     })
     
+    # Linear regression plot
+    lmGraph <- function(){
+        plot(dataInput()$x,dataInput()$y)
+        abline(LinearModel())
+    }
+    
     output$lmPlot <- renderPlot({
-       # y <- dataInput()$y
-       # x <- dataInput()$x
-       # lmPlot <- lm(y ~ x)
-       plot(dataInput()$x,dataInput()$y)
-       abline(LinearModel())
-    )}
+       lmGraph()
+    })
+    
+
        
-# Display slope, intercept (coefficients), and correlation coefficient (r.squared)
+    # Display slope, intercept (coefficients), and correlation coefficient (r.squared)
     output$R.squared <- renderText({
-        
-        paste("Adjusted R2 = ",signif(summary(LinearModel())$adj.r.squared, 3))
-        
+        paste("Adjusted R^2 = ",signif(summary(LinearModel())$adj.r.squared, 3))
     })
     output$Intercepts <- renderText({
-        
         paste("Intercept =",signif(LinearModel()$coef[[1]], 3))
-        
     })
     output$Slope <- renderText({
-        
         paste("Slope =",signif(LinearModel()$coef[[2]], 3))
-        
+    })
+    
+    # Download/Export linear model as png
+    output$downloadPlot <- downloadHandler(
+        filename = function() { paste(input$file1$datapath, '.png', sep='') },
+        content = function(file) {
+            png(file)
+            lmGraph()
+            dev.off()
     })
 }
 
