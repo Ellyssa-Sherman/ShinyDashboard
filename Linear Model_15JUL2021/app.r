@@ -2,12 +2,11 @@
 # 1) Read in a csv formatted file regrex1.csv. | DONE
 # 2) Output a scatter plot | DONE
 # 3) Add a button to model the data (linear model) | DONE
-# 4) Output a plot of the linear model overlayed on the original data.
-# 5) Output the slope, intercept, and correlation coefficient
+# 4) Output a plot of the linear model overlayed on the original data. | DONE
+# 5) Output the slope, intercept, and correlation coefficient | DONE
 # 6) Push the functional app to a Binder git repo.  
-# 7) Submit the git URLs for each jupyter notebook repo (one for R and one for pyton). The URL must contain the notebook (.ipynb) the exported html of the completed assignment (.html) and a modified README with the badge icon for the binder notebook used to create the assignment.  YOU ARE ALLOWED MULTIPLE UPLOAD ATTEMPTS.  LOAD EACH URL SEPARATELY.
+# 7) Submit the git URLs for Shiny App.
 
-# 
 # Additional Challenges (no graded)
 # 1) create a button to export the plots
 # 2) incorporate Plotly interactive graphs
@@ -22,6 +21,7 @@
 #
 
 library(shiny)
+library(ggplot2)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -65,22 +65,23 @@ ui <- fluidPage(
             tags$hr(), # Horizontal line
             
             actionButton("lmPlot", "Linear Model"),
-            # I want to create checkbox click where it shows these regression attributes
-            # radioButtons("attributes", "Regression Attributes",
-            #              choices = c(Slope = "slope",
-            #                          Intercept = "int",
-            #                          R-squared = "r_squ"),
-            #              selected = "slope")
-            
             tags$hr(), # Horizontal line
+            
+            
         ),
 
         # Show a plot of the generated distribution
         mainPanel(
            plotOutput("distPlot"),
            plotOutput("lmPlot"),
-           tableOutput("contents"),
-           textOutput("summary")
+           h5("Slope"),
+           textOutput("Slope"),
+           h5("Y-Intercept"),
+           textOutput("Intercepts"),
+           h5("Correlation Coefficient"),
+           textOutput("R.squared"),
+
+
         )
     )
 )
@@ -114,36 +115,24 @@ server <- function(input, output) {
        # lmPlot <- lm(y ~ x)
        plot(dataInput()$x,dataInput()$y)
        abline(LinearModel())
-    })
+    )}
+       
+# Display slope, intercept (coefficients), and correlation coefficient (r.squared)
+    output$R.squared <- renderText({
         
-    output$summary <- renderPrint({
-        y <- dataInput()$y
-        x <- dataInput()$x
-        lmPlot <- lm(y ~ x)
-        attributes(summary(lmPlot))
-        # summary(lmPlot)$r.squared
-        # summary(lmPlot)$intercept
-        
-        # Display slope, intercept (coefficients), and correlation coefficient (r.squared)
-    })
-    
-    
-    output$contents <- renderTable({
-        
-        # input$file1 will be NULL initially. After the user selects
-        # and uploads a file, head of that data file by default,
-        # or all rows if selected, will be shown.
-        
-        
-        if(input$disp == "head") {
-            return(head(dataInput()))
-        }
-        else {
-            return(dataInput())
-        }
+        paste("Adjusted R2 = ",signif(summary(LinearModel())$adj.r.squared, 3))
         
     })
+    output$Intercepts <- renderText({
         
+        paste("Intercept =",signif(LinearModel()$coef[[1]], 3))
+        
+    })
+    output$Slope <- renderText({
+        
+        paste("Slope =",signif(LinearModel()$coef[[2]], 3))
+        
+    })
 }
 
 # Run the application 
